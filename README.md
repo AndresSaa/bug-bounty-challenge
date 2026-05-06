@@ -1,2 +1,21 @@
-# bug-bounty-challenge
-Created with CodeSandbox
+# Welcome!
+
+This is a demo application with some glitches and bugs, where we hope that you can finde them. 😃 Here the list of <b>known</b> issues:
+
+All bugs have a different level of complexity and all of them are pretty common (real wolrd problems for any react developer). To solve all open points a different set of skills are required: googling, experience, reading docs and error messages, creativity and analytical thinking.
+
+1. **🐞 Console error: Warning: Each child in a list should have a unique "key" prop.**
+  Hope you are able to find what is causing this error, as it is annoying.
+
+2. **🐞The word "known" should be displayed bold in the introduction text.**
+  When implementing a solution, please ensure to not change the i18n text.
+
+3. **🐞 User avatar in app bar is missing, although user should be fetched on app start correctly.**
+  On app start we load the current user object via a MobX store, but for any reason the user avatar is not displayed in the top right of the app bar. Attention: When solving this issue, you might will be confronted with a second bug.
+
+4. **🐞Optional: Countdown is broken sometimes (hard to reproduce).**
+  Some developers mentioned that the countdown in the app header behaves strange sometimes, but unfortunately they were not able to reproduce this glitch reliably, maybe you find the root cause.
+
+5. **⭐️ Optional: It would be great to be able to switch the language.**
+
+  Please add a language select control in the app bar to swicth the UI language between english and german.
