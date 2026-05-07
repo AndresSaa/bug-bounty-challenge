@@ -22,8 +22,8 @@ const getBrowserLanguage = () => {
 const browserLanguage = getBrowserLanguage();
 
 export const defaultTranslationModules = [
-  { locale: "de", texts: de },
-  { locale: "en", texts: en }
+  { locale: "de", name: "Deutsch", texts: de },
+  { locale: "en", name: "English", texts: en }
 ];
 export const defaultLanguages = defaultTranslationModules.map((m) => m.locale);
 
