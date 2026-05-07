@@ -41,7 +41,7 @@ const Home = () => {
         "Some developers mentioned that the countdown in the app header behaves strange sometimes, but unfortunately they were not able to reproduce this glitch reliably, maybe you find the root cause."
     },
     {
-      key: "bug-5",
+      key: "feat-1",
       icon: "⭐️",
       title: "Optional: It would be great to be able to switch the language.",
       description:
