@@ -1,5 +1,3 @@
-import { mdiTranslate } from "@mdi/js";
-import Icon from "@mdi/react";
 import { IconButton, Menu, MenuItem } from "@mui/material";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -16,11 +14,12 @@ const LanguageSwitcher = () => {
         sx={{
           p: "4px 8px",
           borderRadius: 1,
-          bgcolor: "#4bc676",
-          "&:hover": { bgcolor: "#3aaa62" }
+          bgcolor: "#1c3330",
+          "&:hover": { bgcolor: "#264540" },
+          fontSize: "1rem"
         }}
       >
-        <Icon path={mdiTranslate} size={0.8} color="white" />
+        🌐
       </IconButton>
       <Menu
         anchorEl={anchorEl}
